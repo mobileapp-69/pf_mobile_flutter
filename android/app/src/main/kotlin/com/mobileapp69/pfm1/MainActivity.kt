@@ -1,4 +1,4 @@
-package com.example.pf_mobile_flutter
+package com.mobileapp69.pfm1
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -46,3 +46,6 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
