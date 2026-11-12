@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 
+import 'config.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -35,7 +37,7 @@ class HomeLayout extends StatefulWidget {
 }
 
 class _HomeLayout extends State<HomeLayout> {
-  final String _url = 'https://mobile-s11.iecmu.com';
+  final String _url = Config.backendUrl;
 
   List<TodoData> _todos = [
     // TodoData(id: "1", todoText: "Task 1"),
